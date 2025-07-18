@@ -1,0 +1,28 @@
+
+Task 3: Database Migration - Summary Report
+============================================
+
+Objective:
+----------
+To migrate the 'Sales' table from a MySQL database to a PostgreSQL database,
+ensuring the data is transferred accurately and fully.
+
+Steps Followed:
+---------------
+1. Created the 'Sales' table in MySQL with 6 customer records.
+2. Exported the data from MySQL as a .csv file using MySQL Workbench.
+3. In PostgreSQL (pgAdmin), created the same table structure.
+4. Faced technical issues while importing CSV into pgAdmin.
+5. As an alternative, inserted the data manually using SQL INSERT statements.
+6. Verified data using SELECT queries and confirmed 6 rows were successfully migrated.
+
+Tools Used:
+-----------
+- MySQL Workbench (for data creation and export)
+- pgAdmin (for PostgreSQL data insertion)
+- Manual SQL for verification
+
+Result:
+-------
+Migration was successfully completed. Data integrity was maintained by using the same
+data set in both databases and checking row counts and content.
